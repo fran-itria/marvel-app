@@ -1,0 +1,48 @@
+.comdetbody{
+    background: rgb(185, 233, 255);
+    height: 100%;
+}
+
+.centro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titcom{
+    border: solid rgb(22, 94, 0) 3px;
+    padding: 5px;
+    background-color: rgb(0, 255, 0);
+    box-shadow: 5px 5px rgb(0, 65, 0);
+    color: white    ;
+}
+.imgcom{
+    width: 200px;
+    height: auto;
+}
+
+.infocen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lisgen{
+    margin-top: 0;
+    list-style-type: square;
+    font-weight: bold;
+}
+.subtitulo{
+    background-color: white;
+    border-radius: 5px;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+.textcom{
+    font-weight: bold;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,59 @@
+
+.body{
+    background-image: url('https://i.blogs.es/270d91/personajes-de-stan-lee/1366_2000.jpg');
+    height: 100%;
+}
+
+.titulo{
+    text-align: center;
+    text-shadow: 1px 4px 1px white;
+    margin: 0;
+}
+
+.boton{
+    border: none;
+    background-color: white;
+    color: black;
+    border: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 35px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 100px;
+}
+.boton:hover{
+    background-color: rgb(255, 183, 183);
+    border-style: outset;
+    font-weight: bold;
+}
+
+
+.contelista{
+    text-align: center;
+}
+.listOne{
+    list-style-type: none;
+    color: rgb(255, 68, 68);
+    display: inline-block   ;
+    text-align: left;
+    columns: 2;
+}
+
+.cparrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.parrafo{   
+    margin-left: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 700px;
+    background: rgb(255, 194, 102);
+    box-shadow: 0px 10px rgb(255, 153, 0);
+}

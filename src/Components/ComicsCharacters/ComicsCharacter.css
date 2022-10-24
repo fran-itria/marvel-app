@@ -1,0 +1,71 @@
+
+.bodypercom{
+    background-color: rgb(255, 163, 163);
+    height: 100%;
+}
+
+
+.contpersonaje{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.personaje{
+    text-align: center;
+    color: white;
+    background: rgb(49, 67, 167);
+    border: solid;
+    border-color: rgb(21, 31, 177);
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+.imgperson{
+    text-align: center;
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: outset;
+}
+
+.bloque{
+    text-align: center;
+    columns: 3;
+}
+.lista{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.comic{
+    padding: 20px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.noc{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.botpercom{
+    border: double 5px black;
+    background: none;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.botpercom:hover{
+    background: white;
+    border: solid;
+    border-radius: 5px;
+    color: black;
+}

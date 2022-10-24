@@ -1,0 +1,15 @@
+.hcentro{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.blogs.es/1aad84/marvel/1366_521.jpeg');
+}
+
+.htexto1{
+    background-color: white;
+    width: 1100px;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 10px;
+}

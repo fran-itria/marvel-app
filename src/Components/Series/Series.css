@@ -1,0 +1,42 @@
+.centerseries{
+    background-image: url('https://elrincondenetflix.com/wp-content/uploads/2020/04/abre-boca-con-las-series-de-marvel-en-netflix_original.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.lisser{
+    list-style-type: none;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    columns: 3;
+}
+.itemser{
+    padding: 10px;
+}
+
+.titser{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-shadow: -4px -1px rgb(0, 26, 255);
+    color: rgb(196, 190, 255);   
+    width: 300px;
+    border-radius: 50px 0px; 
+}
+
+.tititemser{
+    border: none;
+    background-color: white;
+    color: black;
+    border: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 35px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 100px;
+}

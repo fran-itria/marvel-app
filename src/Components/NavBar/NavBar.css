@@ -1,0 +1,50 @@
+
+.nav{
+    margin-bottom: 0px;
+    padding: 2px;
+    border: solid black;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-item{
+    display: inline-block;
+    margin-top: 10px;
+}
+.list-item-img{
+    display: inline-block;
+}
+
+
+.list-item :hover{
+    background-color: rgb(196, 196, 196);
+    border: solid black;
+    border-radius: 10px;
+}
+
+.list-item:active{
+    border: solid 2px white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: solid 2px white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.nimg{
+    width: 100px;
+    height: 34px;
+    margin-top: 4px
+}
